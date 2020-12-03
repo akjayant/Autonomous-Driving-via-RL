@@ -11,5 +11,6 @@ Does okay on straight roads & slightly curve roads, breaks often (as to avoid co
 ##### Reward plot
    ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/training_plot.jpg)
       
-##### Video -
-    
+##### Video  -
+  ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/runs/video.gif)
+    *(Timelapse made by Kapwing app)
