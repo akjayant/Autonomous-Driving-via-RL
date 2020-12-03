@@ -5,7 +5,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
     1) Carla 0.9.6
     2) Install gym style wrapper from https://github.com/cjy1992/gym-carla
 
-### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN-Discrete-drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
+### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
 Does okay on straight roads & slightly curve roads, breaks often (as to avoid collisions), follows lane,fails terribly on sharp turns & roundabouts.
 
 ##### Reward plot
