@@ -4,6 +4,19 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
     Requirements
     1) Carla 0.9.6
     2) Install gym style wrapper from https://github.com/cjy1992/gym-carla
+    3) Pytorch
+    
+    Training & Testing -
+    1) Clone
+    git clone https://github.com/akjayant/Autonomous-Driving-via-RL/
+    2) Go to CARLA_0.9.6 directory & run the simulator in non-display mode.
+    /CARLA_0.9.6$ DISPLAY= ./CarlaUE4.sh -opengl -carla-port=2000
+    3) Train from repo root directory
+    cd DQN_discrete_drive
+    python train.py
+    4) Test your agent
+    python test.py
+  
 
 ### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
     1) CNN extracts features from Camera frames and Lidar frames & then passes onto Q-network which is then trained via experience replay.
