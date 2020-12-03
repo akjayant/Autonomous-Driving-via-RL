@@ -2,7 +2,8 @@
 Applying RL algorithm methods for autonomous driving in Carla simulator
 
     Requirements
-    1) Carla 0.9.6
+    1) gym
+    1) Carla 0.9.6 from https://github.com/carla-simulator/carla/releases/tag/0.9.6
     2) Install gym style wrapper from https://github.com/cjy1992/gym-carla
     3) Pytorch
     
