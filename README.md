@@ -23,11 +23,11 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
 ### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
     ver 2.0
     multipath - Treats CAMERA and LiDAR frames seperately, extracts features from respective CNN and then concat.
-    concat - Concat AMERA and LiDAR frames and extracts features froom it.
+    concat - Concat CAMERA and LiDAR frames and extracts features froom it.
     
       - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
       - Fails on sharp turns.
-      - Avoids collisions after training but during explorations, does collide.
+      - Avoids collisions after training but during explorations,it does collide.
 
 ### 2) DDPG Agent built on contionous actions and primitve reward function -[DQN_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DDPG_Continuous_drive) 
     Doesn't work quite well as of now!
