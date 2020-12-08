@@ -27,7 +27,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
     Uses 'state' which contains lateral distance error,speed, presence of vehicle infront etc observation from environment as well.
     multipath - Treats CAMERA and LiDAR frames seperately, extracts features from respective CNN and then concat.
     single path concat - Concat CAMERA and LiDAR frames and extracts features from it.
-    
+    [video]()
       - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
       - Fails on sharp turns.
       - Avoids collisions after training but during explorations,it does collide.
