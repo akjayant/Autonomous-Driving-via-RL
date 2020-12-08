@@ -24,10 +24,10 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
     2) Does okay on straight roads & slightly curve roads, breaks often (as to avoid collisions), follows lane,fails terribly on sharp turns & roundabouts.
 
 ##### Reward plot
-   ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver+1.0/training_plot.jpg)
+   ![p]('https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver 1.0/training_plot.jpg')
       
 ##### Video  -
-  ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver+1.0/runs/video.gif)
+  ![p]('https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver 1.0/runs/video.gif')
  
 ### 2) DDPG Agent built on contionous actions and primitve reward function - WIP
  *(Timelapse made by Kapwing app)
