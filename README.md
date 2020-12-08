@@ -7,7 +7,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
     2) Install gym style wrapper from https://github.com/cjy1992/gym-carla
     3) Pytorch
     
-    Training & Testing -
+    Training & Testing (for DQN) -
     1) Clone
     git clone https://github.com/akjayant/Autonomous-Driving-via-RL/
     2) Go to CARLA_0.9.6 directory & run the simulator in non-display mode.
@@ -20,14 +20,13 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
   
 
 ### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
-    1) CNN extracts features from Camera frames and Lidar frames & then passes onto Q-network which is then trained via experience replay.
-    2) Does okay on straight roads & slightly curve roads, breaks often (as to avoid collisions), follows lane,fails terribly on sharp turns & roundabouts.
+    ver 1.0 - Treats two frames seperately, extracts features from respective CNN and then concat.
+    ver 2.0 - Concat 2 frames and extracts features froom it.
+    
+      - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
+      - Fails on sharp turns.
+      - Avoids collisions after training but during explorations, does collide.
 
-##### Reward plot
-   ![p]('https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver 1.0/training_plot.jpg')
-      
-##### Video  -
-  ![p]('https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver 1.0/runs/video.gif')
+### 2) DDPG Agent built on contionous actions and primitve reward function -[DQN_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Continuous_drive) 
+    Doesn't work quite well as of now!
  
-### 2) DDPG Agent built on contionous actions and primitve reward function - WIP
- *(Timelapse made by Kapwing app)
