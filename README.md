@@ -20,7 +20,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
     python test.py
   
 
-### 1) DQN Model built on Discrete Actions and primitive reward function - [video](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/dqn-ver2(0).mp4?raw=true) [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
+### 1) DQN Model built on Discrete Actions and primitive reward function : [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
     # ver 1.0
     single path concat - Concat CAMERA and LiDAR frames and extracts features froom it.
     # ver 2.0
@@ -34,6 +34,8 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
      # ver 3.0
      Safe exploration during training - WIP
 
+ver 2.0 -
+![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/20201209_001339.gif)
 ### 2) DDPG Agent built on contionous actions and primitve reward function -[DDPG_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DDPG_Continuous_drive) 
     Doesn't work quite well as of now!
  
