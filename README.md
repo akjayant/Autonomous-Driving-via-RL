@@ -1,11 +1,12 @@
 # Autonomous-Driving-via-RL
-Applying RL algorithm methods for autonomous driving in Carla simulator
+Applying RL algorithm methods for autonomous driving in Carla simulator.
+####  Sensors used - Camera and Lidar
 
     Requirements
     1) gym
     1) Carla 0.9.6 from https://github.com/carla-simulator/carla/releases/tag/0.9.6
     2) Install gym style wrapper from https://github.com/cjy1992/gym-carla
-    3) Pytorch
+    3) PyTorch
     
     Training & Testing (for DQN) -
     1) Clone
@@ -20,8 +21,8 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
   
 
 ### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
-    ver 1.0 - Treats two frames seperately, extracts features from respective CNN and then concat.
-    ver 2.0 - Concat 2 frames and extracts features froom it.
+    ver 1.0 - Treats CAMERA and LiDAR frames seperately, extracts features from respective CNN and then concat.
+    ver 2.0 - Concat AMERA and LiDAR frames and extracts features froom it.
     
       - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
       - Fails on sharp turns.
