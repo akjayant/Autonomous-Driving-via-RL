@@ -27,6 +27,6 @@ Applying RL algorithm methods for autonomous driving in Carla simulator
       - Fails on sharp turns.
       - Avoids collisions after training but during explorations, does collide.
 
-### 2) DDPG Agent built on contionous actions and primitve reward function -[DQN_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Continuous_drive) 
+### 2) DDPG Agent built on contionous actions and primitve reward function -[DQN_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DDPG_Continuous_drive) 
     Doesn't work quite well as of now!
  
