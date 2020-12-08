@@ -20,14 +20,14 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
     python test.py
   
 
-### 1) DQN Model built on Discrete Actions and primitive reward function - [DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
+### 1) DQN Model built on Discrete Actions and primitive reward function - [video](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/dqn-ver2(0).mp4?raw=true)[DQN_Discrete_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DQN_Discrete_drive)
     # ver 1.0
     single path concat - Concat CAMERA and LiDAR frames and extracts features froom it.
     # ver 2.0
     Uses 'state' which contains lateral distance error,speed, presence of vehicle infront etc observation from environment as well.
     multipath - Treats CAMERA and LiDAR frames seperately, extracts features from respective CNN and then concat.
     single path concat - Concat CAMERA and LiDAR frames and extracts features from it.
-    [video](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/dqn-ver2(0).mp4?raw=true)
+    
       - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
       - Fails on sharp turns.
       - Avoids collisions after training but during explorations,it does collide.
