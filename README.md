@@ -28,15 +28,19 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
     multipath - Treats CAMERA and LiDAR frames seperately, extracts features from respective CNN and then concat.
     single path concat - Concat CAMERA and LiDAR frames and extracts features from it.
     
-      - Does okay on straight roads & slightly curve roads and follows lane on roundabouts as well occasionally.
+      - Does okay on straight roads & slightly curve roads and follows lane on roundabouts occasionally.
       - Fails on sharp turns.
-      - Avoids collisions after training but during explorations,it does collide.
+      - Avoids collisions after training (when speed is slow) but during explorations,it does collide.
+      - At faster speeds, collision still occurs.
      # ver 3.0
      Safe exploration during training -
      python safety_train.py False
      python saftey_train.py True
      python train.py
-      - Explores safely than previous versions during training. (Applies brakes when out of lane/ obstacle ahead in same lane)
+      - Explores safely than previous versions during training. (Applies brakes when out of lane/ obstacle ahead in same lane).
+      - at faster speed collsion still occurs. Requires better vision features like semantic segmentation, depth map etc. and longer past frames.
+      # ver 4.0 
+      Safe Exploration + Better Vision features + More past frames in state represenation - WIP
 
 ver 2.0 -
 ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/20201209_001339.gif)
