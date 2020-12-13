@@ -39,7 +39,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
      python train.py
       - Explores safely than previous versions during training. (Applies brakes when out of lane/ obstacle ahead in same lane).
       - at faster speed collsion still occurs. Requires better vision features like semantic segmentation, depth map etc. and longer past frames.
-      # ver 4.0 
+     # ver 4.0 
       Safe Exploration + Better Vision features + More past frames in state represenation - WIP
 
 ver 2.0 -
