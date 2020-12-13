@@ -32,7 +32,11 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
       - Fails on sharp turns.
       - Avoids collisions after training but during explorations,it does collide.
      # ver 3.0
-     Safe exploration during training - WIP
+     Safe exploration during training -
+     python safety_train.py False
+     python saftey_train.py True
+     python train.py
+      - Explores safely than previous versions during training. (Applies brakes when out of lane/ obstacle ahead in same lane)
 
 ver 2.0 -
 ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/20201209_001339.gif)
