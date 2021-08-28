@@ -181,7 +181,7 @@ if __name__ == "__main__":
       'display_size': 480,  # screen size of bird-eye render
       'max_past_step': 1,  # the number of past steps to draw
       'dt': 0.1,  # time interval between two frames
-      'discrete': False,  # whether to use discrete control space
+      'discrete': True,  # whether to use discrete control space
       'discrete_acc': [-3.0,-2.0, 0.0,2.0, 3.0],  # discrete value of accelerations
       'discrete_steer': [-0.2, 0.0, 0.2],  # discrete value of steering angles
       'continuous_accel_range': [-3.0, 3.0],  # continuous acceleration range
