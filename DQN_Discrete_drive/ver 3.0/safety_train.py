@@ -1,5 +1,6 @@
 import torch
 import torch.nn as nn
+from torchsampler import ImbalancedDatasetSampler
 import torch.nn.functional as F
 import random
 import torch.optim as optim
@@ -17,7 +18,7 @@ import numpy as np
 from torch.utils.tensorboard import SummaryWriter
 from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
-from torchsampler import ImbalancedDatasetSampler
+
 import sys
 
 class CustomDataset(Dataset):
