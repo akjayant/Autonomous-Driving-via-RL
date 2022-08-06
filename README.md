@@ -44,6 +44,7 @@ Applying RL algorithm methods for autonomous driving in Carla simulator.
 
 ver 2.0 -
 ![p](https://github.com/akjayant/Autonomous-Driving-via-RL/blob/main/DQN_Discrete_drive/ver%202.0/Single%20path%20concat/20201209_001339.gif)
+
 ### 2) DDPG Agent built on contionous actions and primitve reward function -[DDPG_Continuous_drive](https://github.com/akjayant/Autonomous-Driving-via-RL/tree/main/DDPG_Continuous_drive) 
     Doesn't work quite well as of now!
  
